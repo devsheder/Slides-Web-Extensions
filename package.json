@@ -1,0 +1,33 @@
+{
+  "name": "slides-web-ext",
+  "version": "2.2.0",
+  "description": "Slides for presentation Web Extension with RevealJS",
+  "scripts": {
+    "sass": "sass scss/:css/ --watch ",
+    "serve": "live-server --port=4242 --open=\"./index.html\" --watch=\"js/,md/\"",
+    "build-watch": "parallelshell \"npm run sass\"",
+    "start": "parallelshell \"npm run serve\" \"npm run build-watch\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/binomed/Slides-Web-Extensions.git"
+  },
+  "keywords": [
+    "css",
+    "sfeir"
+  ],
+  "authors": [
+    "jefbinomed",
+    "devsheder"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "chokidar-cli": "^1.2.1",
+    "cpx": "^1.5.0",
+    "highlight.js": "^10.4.1",
+    "live-server": "^1.2.1",
+    "sass": "^1.49.8",
+    "parallelshell": "3.0.1",
+    "reveal.js": "^3.9.2"
+  }
+}
