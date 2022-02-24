@@ -1,0 +1,107 @@
+body {
+	//@include bodyBackground();
+	background-color: $black;
+}
+
+/**
+
+OVERRIDE FONTS
+
+
+*/
+
+
+@font-face {
+    font-family: 'Steampuff';
+    src: url('../fonts/steampuff/Steampuff.otf');
+}
+@font-face {
+    font-family: 'Steamy';
+    src: url('../fonts/steamy/Steamy.otf');
+}
+
+.reveal{
+	font-family: 'Steampuff', 'Helvetica Neue', Helvetica, 'Microsoft YaHei', 'WenQuanYi Micro Hei', Arial, sans-serif;
+    color:white;
+}
+
+
+
+
+.reveal .slides section.sfeir-basic-slide:not(.stack), 
+.reveal .slides section.exercice:not(.stack){
+    color:white;
+
+}
+.reveal h1, .reveal h2, .reveal h3, .reveal h4,
+.reveal .slides section.with-code h1, .reveal .slides section.with-code h2{
+    font-family: 'Steamy', 'Helvetica Neue', Helvetica, 'Microsoft YaHei', 'WenQuanYi Micro Hei', Arial, sans-serif;
+}
+
+.reveal .slides section:not(.sfeir-specific-slide):not(.stack):not([class*=transition]) h1, 
+.reveal .slides section:not(.sfeir-specific-slide):not(.stack):not([class*=transition]) h2, 
+.reveal .slides section.sfeir-basic-slide:not(.stack):not([class*=transition]) h1, 
+.reveal .slides section.sfeir-basic-slide:not(.stack):not([class*=transition]) h2, 
+.reveal .slides section.sfeir-specific-slide.sfeir-bg-axololt:not(.stack):not([class*=transition]) h1, 
+.reveal .slides section.sfeir-specific-slide.sfeir-bg-axololt:not(.stack):not([class*=transition]) h2,
+.reveal .slides section[class*=transition] h1, 
+.reveal .slides section.sfeir-basic-slide[class*=transition] h1, 
+.reveal .slides section.sfeir-specific-slide[class*=transition] h1,
+.reveal h1, 
+.reveal h2, 
+.reveal h3, 
+.reveal h4,
+.reveal .slides section.with-code h1, 
+.reveal .slides section.with-code h2,
+.reveal .slides section[data-background].first-slide h1,
+.reveal .slides section[data-background].first-slide h2 {
+    font-weight: normal;
+    text-transform: none;
+    color:white;
+}
+
+/**
+POSITIONS
+*/
+
+.reveal .slides section[data-background].first-slide{
+    h1{
+        position: relative;
+        top:150px;
+    }
+    h2{
+        position: relative;
+        top: 600px;
+    }
+}
+
+.reveal .slides section[class*=transition] h1, 
+.reveal .slides section.sfeir-basic-slide[class*=transition] h1, 
+.reveal .slides section.sfeir-specific-slide[class*=transition] h1 {
+    color: white;
+    margin: auto;
+    margin-top: 450px;
+    font-size: 3em;
+    margin-bottom: 40px;
+    text-transform: initial;
+    padding: 30px;
+    width: 1200px;
+    background: inherit;
+    transform: inherit;
+}
+
+.reveal .slides section[class*=transition].text-bg h1, 
+.reveal .slides section.sfeir-basic-slide[class*=transition].text-bg h1, 
+.reveal .slides section.sfeir-specific-slide[class*=transition].text-bg h1 {
+    width: fit-content;
+    color: white;
+    background: linear-gradient(to right, rgb(39, 39, 39), rgb(77, 77, 77));
+}
+
+.reveal .slides section[class*=transition].text-bg h1, 
+.reveal .slides section.sfeir-basic-slide[class*=transition].text-bg h1, 
+.reveal .slides section.sfeir-specific-slide[class*=transition].text-bg h1 {
+    width: fit-content;
+    color: white;
+    background: linear-gradient(to right, rgb(39, 39, 39), rgb(77, 77, 77));
+}

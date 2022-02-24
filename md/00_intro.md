@@ -1,12 +1,45 @@
 
-<!-- .slide: class="transition left sfeir-bg-axololt" -->
+<!-- .slide: class="first-slide" -->
 
-# SfeirSchool Theme
+# Les WebExtensions
 
-## Showroom of sfeir school theme
+## Ou comment enrichir son application sans y toucher
 
 ##==##
 
+<!-- .slide: class="transition left" data-background="./assets/images/pexels-miguel-á-padriñán-one.jpeg" style="left: 600px;" -->
+
+# L'histoire des webextensions
+
+##==##
+
+<!-- .slide: class="transition left" data-background="./assets/images/pexels-miguel-á-padriñán-two.jpeg" style="left: 700px;"-->
+
+# WebExtensions ce standard du web
+
+##==##
+
+<!-- .slide: class="transition left" data-background="./assets/images/pexels-miguel-á-padriñán-three.jpeg" style="left: 700px;"-->
+
+# Comment ça marche ?
+
+##==##
+
+<!-- .slide: class="transition left" data-background="./assets/images/pexels-miguel-á-padriñán-four.jpeg" style="left: 700px;"-->
+
+# La compatibilité dans tout ça ?
+
+##==##
+
+<!-- .slide: class="transition left" data-background="./assets/images/pexels-miguel-á-padriñán-five.jpeg" style="left: 700px;" -->
+
+# Show time !
+
+
+##==##
+
+
+<!-- .slide: data-background="./assets/images/pexels-miguel-á-padriñán-engrenage-1-revert.jpeg" -->
 # How to use it ?
 
 Each of those slides will show you what you can do with Sfeir School Theme
@@ -17,17 +50,9 @@ To easily understand how to reproduce the slide for your needs. This presentatio
 
 # ⬇️
 <!-- .element: class="center" -->
-
-##--##
-
-# Vertical Navigation !!
-
-
-Now you see that you could use vertical navigation. Enjoy the possibilities of Sfeir School Theme
-
 ##==##
 
-<!-- .slide: class="transition" -->
+<!-- .slide: class="transition text-bg" -->
 
 # Titles slides
 
@@ -38,41 +63,12 @@ Now you see that you could use vertical navigation. Enjoy the possibilities of S
 # **Welcome to Sfeir School**
 ## **PWA 100**
 
-##--##
-
-<!-- .slide: class="with-code" -->
-
-# Code to produce / Markdown
-
-```markdown
-<!-- .slide: class="first-slide" sfeir-level="1" sfeir-techno="pwa" -->
-
-# **Welcome to Sfeir School**
-## **PWA 100**
-```
-<!-- .element: class="big-code" -->
-
 ##==##
 
 <!-- .slide: class="first-slide" sfeir-level="2" sfeir-techno="pwa" -->
 
 # **Welcome to Sfeir School**
 ## **PWA 200**
-
-
-##--##
-
-<!-- .slide: class="with-code" -->
-
-# Code to produce / Markdown
-
-```markdown
-<!-- .slide: class="first-slide" sfeir-level="2" sfeir-techno="pwa" -->
-
-# **Welcome to Sfeir School**
-## **PWA 200**
-```
-<!-- .element: class="big-code" -->
 
 ##==##
 
@@ -81,43 +77,3 @@ Now you see that you could use vertical navigation. Enjoy the possibilities of S
 # **Welcome to Sfeir School**
 ## **PWA 300**
 
-##--##
-
-<!-- .slide: class="with-code" -->
-
-# Code to produce / Markdown
-
-```markdown
-<!-- .slide: class="first-slide" sfeir-level="3" sfeir-techno="pwa" -->
-
-# **Welcome to Sfeir School**
-## **PWA 300**
-```
-<!-- .element: class="big-code" -->
-
-
-##==##
-
-<!-- .slide: class="school-presentation" -->
-
-<div class="wifi">
-    <span class="key">wifi:</span><span>SSID</span><br>
-    <span class="key">mdp:</span><span>PWD_WIFI</span>
-</div>
-
-
-##--##
-
-<!-- .slide: class="with-code" -->
-
-# Code to produce / Markdown
-
-```markdown
-<!-- .slide: class="school-presentation" -->
-
-<div class="wifi">
-    <span class="key">wifi:</span><span>SSID</span><br>
-    <span class="key">mdp:</span><span>PWD_WIFI</span>
-</div>
-```
-<!-- .element: class="big-code" -->

@@ -72,7 +72,7 @@ class SfeirTheme {
 	_manageBackgrounds(){
 
 		const map = {
-			'first-slide': `${this.path}images/bg-grey-axololt.png`,
+			'first-slide': `${this.path}assets/images/pexels-miguel-á-padriñán-engrenage-4.jpeg`,
 			'transition': `${this.path}images/bg-grey-axololt.png`,
 			'school-presentation': `${this.path}images/bg-school.png`,
 			'speaker-slide': `${this.path}images/bg-grey-axololt.png`,
@@ -107,7 +107,7 @@ class SfeirTheme {
 			genericSlide.classList.add('sfeir-basic-slide');
 		}
 
-		this._manageFirstSlide();
+		//this._manageFirstSlide();
 	}
 
 	_manageFirstSlide(){
