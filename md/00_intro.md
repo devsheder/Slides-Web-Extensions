@@ -38,18 +38,47 @@
 
 ##==##
 
+<!-- .slide: class="sfeir-basic-slide"-->
 
-<!-- .slide: data-background="./assets/images/pexels-miguel-á-padriñán-engrenage-1-revert.jpeg" -->
 # How to use it ?
 
 Each of those slides will show you what you can do with Sfeir School Theme
 
 <br>
 
-To easily understand how to reproduce the slide for your needs. This presentation will use RevealJS vertical navigation to show you the code to produce. Press space or ⬇️key to see the code 
+To easily understand how to reproduce the slide for your needs. This presentation will use RevealJS vertical navigation to show you the code to produce. Press space 
 
-# ⬇️
-<!-- .element: class="center" -->
+
+##==##
+
+<!-- .slide: class="webext-basic" data-background="./assets/images/engrenage-1-revert.jpeg"   -->
+# webext-cog-1-revert ?
+
+bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla 
+
+##==##
+
+<!-- .slide: class="webext-basic" data-background="./assets/images/engrenage-1-shadow-revert.jpeg" -->
+# webext-cog-1-shadow-revert ?
+
+bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla 
+
+##==##
+
+
+<!-- .slide: class="webext-basic" data-background="./assets/images/engrenage-2-revert.jpeg" -->
+# webext-cog-2-revert ?
+
+bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla 
+
+##==##
+
+
+<!-- .slide: class="webext-basic" data-background="./assets/images/engrenage-2-shadow-revert.jpeg" -->
+# webext-cog-2-shadow-revert ?
+
+bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla 
+
 ##==##
 
 <!-- .slide: class="transition text-bg" -->

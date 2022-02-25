@@ -2340,4 +2340,52 @@ POSITIONS
   background: linear-gradient(to right, #272727, #4d4d4d);
 }
 
+/**
+LAYOUT
+*/
+.reveal .slides section:not(.sfeir-specific-slide):not(.stack):not([class*=transition]),
+.reveal .slides section.sfeir-basic-slide:not(.stack):not([class*=transition]),
+.reveal .slides section.sfeir-specific-slide.sfeir-bg-axololt:not(.stack):not([class*=transition]) {
+  width: 90%;
+}
+
+.reveal .slides section.sfeir-basic-slide:not(.stack) h1:first-of-type:after,
+.reveal .slides section.sfeir-basic-slide:not(.stack) h2:first-of-type:after,
+.reveal .slides section.webext-basic:not(.stack) h1:first-of-type:after,
+.reveal .slides section.webext-basic:not(.stack) h2:first-of-type:after,
+.reveal .slides section.exercice:not(.stack) h1:first-of-type:after,
+.reveal .slides section.exercice:not(.stack) h2:first-of-type:after {
+  position: absolute;
+  content: "";
+  width: 40%;
+  height: 10px;
+  background-color: #fad7a2;
+  bottom: -30px;
+  left: 0;
+}
+
+.reveal .slides section.webext-basic:not(.stack) h1,
+.reveal .slides section.webext-basic:not(.stack) h2,
+.reveal .slides section.webext-basic:not(.stack) h1 ~ h2,
+.reveal .slides section.webext-basic:not(.stack) h2 ~ h3,
+.reveal .slides section.webext-basic:not(.stack) h1 ~ h3 {
+  position: relative;
+  color: #434343;
+  text-align: left;
+}
+
+.reveal .slides section[data-background].speaker-slide h3 {
+  left: 300px;
+}
+
+.reveal .slides section[data-background].speaker-slide img[alt*=speaker],
+.reveal .slides section[data-background].speaker-slide div.speaker {
+  border-color: #fad7a2;
+}
+
+.reveal .slides section[data-background].speaker-slide h2 span {
+  padding-right: 15px;
+  background: linear-gradient(to right, #fad7a2, #ffc107);
+}
+
 /*# sourceMappingURL=sfeir-school-theme.css.map */

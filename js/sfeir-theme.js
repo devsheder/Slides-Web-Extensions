@@ -72,10 +72,10 @@ class SfeirTheme {
 	_manageBackgrounds(){
 
 		const map = {
-			'first-slide': `${this.path}assets/images/pexels-miguel-á-padriñán-engrenage-4.jpeg`,
-			'transition': `${this.path}images/bg-grey-axololt.png`,
+			'first-slide': `${this.path}assets/images/engrenage-4.jpeg`,
+			'transition': `${this.path}assets/images/engrenage-2.jpeg`,
 			'school-presentation': `${this.path}images/bg-school.png`,
-			'speaker-slide': `${this.path}images/bg-grey-axololt.png`,
+			'speaker-slide': `${this.path}assets/images/engrenage-2.jpeg`,
 			'sfeir-slide': `${this.path}images/bg-grey-axololt.png`,
 			'bg-white': `${this.path}images/bg-grey-axololt.png`,
 			'bg-pink': `${this.path}images/bg-grey-axololt.png`,
@@ -89,6 +89,15 @@ class SfeirTheme {
 			'transition-bg-grey-5': `${this.path}images/bg-grey-5.jpg`,
 			'transition-bg-grey-6': `${this.path}images/bg-grey-6.jpg`,
 			'transition-bg-grey-7': `${this.path}images/bg-grey-7.jpg`,
+			'sfeir-basic-slide': `${this.path}assets/images/engrenage-1-revert.jpeg`,
+			'webext-cog-1-revert': `${this.path}assets/images/engrenage-1-revert.jpeg`,
+			'webext-cog-1-shadow-revert': `${this.path}assets/images/engrenage-1-shadow-revert.jpeg`,
+			'webext-cog-1-shadow': `${this.path}assets/images/engrenage-1-shadow.jpeg`,
+			'webext-cog-1': `${this.path}assets/images/engrenage-1.jpeg`,
+			'webext-cog-2-revert': `${this.path}assets/images/engrenage-2-revert.jpeg`,
+			'webext-cog-2-shadow-revert': `${this.path}assets/images/engrenage-2-shadow-revert.jpeg`,
+			'webext-cog-2-shadow': `${this.path}assets/images/engrenage-2-shadow.jpeg`,
+			'webext-cog-2': `${this.path}assets/images/engrenage-2.jpeg`,
 		};
 
 		for (let key in map){

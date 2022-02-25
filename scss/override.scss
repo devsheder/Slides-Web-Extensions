@@ -3,6 +3,8 @@ body {
 	background-color: $black;
 }
 
+$gold: #fad7a2;
+
 /**
 
 OVERRIDE FONTS
@@ -24,9 +26,6 @@ OVERRIDE FONTS
 	font-family: 'Steampuff', 'Helvetica Neue', Helvetica, 'Microsoft YaHei', 'WenQuanYi Micro Hei', Arial, sans-serif;
     color:white;
 }
-
-
-
 
 .reveal .slides section.sfeir-basic-slide:not(.stack), 
 .reveal .slides section.exercice:not(.stack){
@@ -104,4 +103,52 @@ POSITIONS
     width: fit-content;
     color: white;
     background: linear-gradient(to right, rgb(39, 39, 39), rgb(77, 77, 77));
+}
+/**
+LAYOUT
+*/
+
+.reveal .slides section:not(.sfeir-specific-slide):not(.stack):not([class*=transition]), 
+.reveal .slides section.sfeir-basic-slide:not(.stack):not([class*=transition]), 
+.reveal .slides section.sfeir-specific-slide.sfeir-bg-axololt:not(.stack):not([class*=transition]) {
+    width: 90%;
+}
+
+.reveal .slides section.sfeir-basic-slide:not(.stack) h1:first-of-type:after, 
+.reveal .slides section.sfeir-basic-slide:not(.stack) h2:first-of-type:after, 
+.reveal .slides section.webext-basic:not(.stack) h1:first-of-type:after, 
+.reveal .slides section.webext-basic:not(.stack) h2:first-of-type:after, 
+.reveal .slides section.exercice:not(.stack) h1:first-of-type:after, 
+.reveal .slides section.exercice:not(.stack) h2:first-of-type:after {
+    position: absolute;
+    content: "";
+    width: 40%;
+    height: 10px;
+    background-color: $gold;
+    bottom: -30px;
+    left: 0;
+}
+
+.reveal .slides section.webext-basic:not(.stack) h1, 
+.reveal .slides section.webext-basic:not(.stack) h2, 
+.reveal .slides section.webext-basic:not(.stack) h1 ~ h2, 
+.reveal .slides section.webext-basic:not(.stack) h2 ~ h3, 
+.reveal .slides section.webext-basic:not(.stack) h1 ~ h3 {
+    position: relative;
+    color: #434343;
+    text-align: left;
+}
+
+.reveal .slides section[data-background].speaker-slide h3 {
+    left: 300px;
+}
+
+.reveal .slides section[data-background].speaker-slide img[alt*=speaker], 
+.reveal .slides section[data-background].speaker-slide div.speaker {
+    border-color: $gold;
+}
+
+.reveal .slides section[data-background].speaker-slide h2 span {
+    padding-right: 15px;
+    background: linear-gradient(to right, $gold, #ffc107);
 }
