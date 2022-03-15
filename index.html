@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8">
 
-	<title>Sfeir School - Theme</title>
+	<title>Talk - Web extensions</title>
 
 	<meta name="description" content="A Theme for open source sfeir schools">
 	<meta name="author" content="Jean-François Garreau AKA jefBinomed">
@@ -51,18 +51,6 @@
 				data-separator-notes="^Notes:"></section>
 			<section data-markdown="./md/01_speaker.md" data-separator="##==##" data-separator-vertical="##--##"
 				data-separator-notes="^Notes:"></section>
-			<section data-markdown="./md/10_chapter1.md" data-separator="##==##" data-separator-vertical="##--##"
-				data-separator-notes="^Notes:"></section>
-			<section data-markdown="./md/11_layouts.md" data-separator="##==##" data-separator-vertical="##--##"
-				data-separator-notes="^Notes:"></section>
-			<section data-markdown="./md/15_vertical.md" data-separator="##==##" data-separator-vertical="##--##"
-				data-separator-notes="^Notes:"></section>
-			<section data-markdown="./md/20_specifics_slides.md" data-separator="##==##"
-				data-separator-vertical="##--##" data-separator-notes="^Notes:"></section>
-			<section data-markdown="./md/30_code_slides.md" data-separator="##==##" data-separator-vertical="##--##"
-				data-separator-notes="^Notes:"></section>
-			<section data-markdown="./md/40_helpers.md" data-separator="##==##" data-separator-vertical="##--##"
-				data-separator-notes="^Notes:"></section>
 
 		</div>
 
@@ -85,44 +73,44 @@
 
 			// Optional libraries used to extend on reveal.js
 			dependencies: [{
-					src: './libs/reveal.js/lib/js/classList.js',
-					condition: function () {
-						return !document.body.classList;
-					}
-				},
-				{
-					src: './libs/reveal.js/plugin/markdown/marked.js',
-					condition: function () {
-						return !!document.querySelector('[data-markdown]');
-					}
-				},
-				{
-					src: './libs/reveal.js/plugin/markdown/markdown.js',
-					condition: function () {
-						return !!document.querySelector('[data-markdown]');
-					}
-				},
-				{
-					src: './libs/reveal.js/plugin/highlight/highlight.js',
-					async: true,
-					callback: function () {
-						hljs.initHighlightingOnLoad();
-					}
-				},
-				{
-					src: './libs/reveal.js/plugin/zoom-js/zoom.js',
-					async: true,
-					condition: function () {
-						return !!document.body.classList;
-					}
-				},
-				{
-					src: './libs/reveal.js/plugin/notes/notes.js',
-					async: true,
-					condition: function () {
-						return !!document.body.classList;
-					}
+				src: './libs/reveal.js/lib/js/classList.js',
+				condition: function () {
+					return !document.body.classList;
 				}
+			},
+			{
+				src: './libs/reveal.js/plugin/markdown/marked.js',
+				condition: function () {
+					return !!document.querySelector('[data-markdown]');
+				}
+			},
+			{
+				src: './libs/reveal.js/plugin/markdown/markdown.js',
+				condition: function () {
+					return !!document.querySelector('[data-markdown]');
+				}
+			},
+			{
+				src: './libs/reveal.js/plugin/highlight/highlight.js',
+				async: true,
+				callback: function () {
+					hljs.initHighlightingOnLoad();
+				}
+			},
+			{
+				src: './libs/reveal.js/plugin/zoom-js/zoom.js',
+				async: true,
+				condition: function () {
+					return !!document.body.classList;
+				}
+			},
+			{
+				src: './libs/reveal.js/plugin/notes/notes.js',
+				async: true,
+				condition: function () {
+					return !!document.body.classList;
+				}
+			}
 				// { src: 'node_modules/reveal.js/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
 				// { src: 'node_modules/reveal.js/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
 			]

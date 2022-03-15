@@ -1,28 +1,21 @@
-<!-- .slide: class="transition" -->
-
-# Speaker slide
-
-##==##
-
 <!-- .slide: class="speaker-slide" -->
 
-# Hello ! @SFEIR
+# Hello !
 
-![speaker](./assets/images/jf.jpg)
+![speaker](./assets/images/adrien.jpeg)
 ![company](./assets/images/logo-sfeir-blanc.png)
-![badge first-badge](./assets/images/gde.png)
-![badge second-badge](./assets/images/GDG-Logo-carre.png)
-![badge third-badge mt-50](./assets/images/mts.png)
+![badge first-badge](./assets/images/bs.png)
+![badge second-badge](./assets/images/bs2.png)
 
-<h2>Jean-François<span> Garreau</span></h2>
+<h2>Adrien <span>LASSELLE</span></h2>
 
-### CTO front
+### Tech lead fullstack
 <!-- .element: class="icon-rule icon-first" -->
 
-### @jefbinomed
+### @AdrienLASSELLE
 <!-- .element: class="icon-twitter icon-second" -->
 
-### fake.email@sfeir.com
+### adrien.lasselle@gmail.com
 
 <!-- .element: class="icon-mail icon-third" -->
 
@@ -30,42 +23,15 @@
 
 <!-- .slide: class="speaker-slide blue" -->
 
-# Hello ! @SFEIR
+# Hello !
 
-
-
-![speaker](./assets/images/jf-2.jpg)
+![speaker](./assets/images/anthony.jpg)
 ![company](./assets/images/logo-sfeir-blanc.png)
 ![badge first-badge](./assets/images/gde.png)
 ![badge second-badge](./assets/images/GDG-Logo-carre.png)
 ![badge third-badge mt-50](./assets/images/mts.png)
 
-<h2>Jean-François<span> Garreau</span></h2>
-
-### CTO front
-<!-- .element: class="icon-rule icon-first" -->
-
-### @jefbinomed
-<!-- .element: class="icon-twitter icon-second" -->
-
-### fake.email@sfeir.com
-
-<!-- .element: class="icon-mail icon-third" -->
-
-
-##==##
-
-<!-- .slide: class="speaker-slide green" -->
-
-# Hello ! @SFEIR
-
-![speaker](./assets/images/jf-3.png)
-![company](./assets/images/logo-sfeir-blanc.png)
-![badge first-badge](./assets/images/gde.png)
-![badge second-badge](./assets/images/GDG-Logo-carre.png)
-![badge third-badge mt-50](./assets/images/mts.png)
-
-<h2>Jean-François<span> Garreau</span></h2>
+<h2>Anthony <span>Pena</span></h2>
 
 ### CTO front
 <!-- .element: class="icon-rule icon-first" -->

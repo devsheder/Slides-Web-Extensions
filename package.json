@@ -13,11 +13,11 @@
     "url": "git+https://github.com/binomed/Slides-Web-Extensions.git"
   },
   "keywords": [
-    "css",
-    "sfeir"
+    "web-extensions",
+    "web"
   ],
   "authors": [
-    "jefbinomed",
+    "kuroidoruido",
     "devsheder"
   ],
   "license": "MIT",
