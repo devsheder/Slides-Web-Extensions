@@ -110,3 +110,53 @@ Promise<boolean> browser.permissions.request(
 ```
 
 ⚠️ Polyfill
+
+##==##
+
+<!-- .slide: class="with-code-bg-dark consolas" -->
+
+## Cycles de vie
+
+1. Au chargement du browser<br/><br/><br/><br/>
+
+1. Au chargement d'une page web
+
+##==##
+
+<!-- .slide: class="with-code-bg-dark consolas" -->
+
+## Lancement du browser
+
+Exécution unique d'une ressource de la web-ext
+
+`Manifest.json` :
+
+```json
+{
+    ...
+    "background": {
+        "scripts": ["background-script.js"], // Firefox et Chrome manifest V2
+        "service_worker": ["background-script.js"] // Chrome seulement manifest V3
+    },
+}
+```
+
+##==##
+
+<!-- .slide: class="with-code-bg-dark consolas" -->
+
+## Page Web
+
+Exécution liée à une page Web
+
+`Manifest.json` :
+
+```json
+{
+    ...
+    "content_scripts": [{
+        "matches": ["*://*.mozilla.org/*"],
+        "js": ["index.js"]
+    }]
+}
+```
