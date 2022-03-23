@@ -1,0 +1,55 @@
+.container {
+    display: flex;
+
+    .log-list {
+        overflow-y: scroll;
+        height: 100vh;
+        width: 50vw;
+
+        &.empty {
+            text-align: center;
+            padding-top: 2rem;
+        }
+
+        .log-entry {
+            height: 2rem;
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid lightgray;
+            padding-top: 0.5rem;
+            cursor: pointer;
+
+            &[data-level='LOG'] {
+                background-color: lightgray;
+            }
+
+            &[data-level='INFO'] {
+                background-color: lightblue;
+            }
+
+            &[data-level='WARN'] {
+                background-color: khaki;
+            }
+
+            &[data-level='ERROR'] {
+                background-color: lightpink;
+            }
+            .status {
+                margin: 0 0.25rem;
+                width: 1rem;
+                text-align: center;
+            }
+            .level {
+                width: 5rem;
+                margin: 0 0.5rem;
+                text-align: center;
+            }
+            .message {
+                flex-grow: 1;
+            }
+            .timestamp {
+                margin: 0 0.25rem 0 0.5rem;
+            }
+        }
+    }
+}

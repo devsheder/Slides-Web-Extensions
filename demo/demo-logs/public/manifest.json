@@ -1,0 +1,14 @@
+{
+  "name": "Demo Logs",
+  "version": "1.0",
+  "manifest_version": 2,
+  "devtools_page": "devtool.html",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+      "webRequest",
+      "<all_urls>"
+  ],
+  "action": {}
+}
