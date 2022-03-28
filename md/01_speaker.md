@@ -27,18 +27,16 @@
 
 ![speaker](./assets/images/anthony.jpg)
 ![company](./assets/images/logo-sfeir-blanc.png)
-![badge first-badge](./assets/images/gde.png)
-![badge second-badge](./assets/images/GDG-Logo-carre.png)
-![badge third-badge mt-50](./assets/images/mts.png)
+<!-- ![badge third-badge mt-50](./assets/images/mts.png) -->
 
 <h2>Anthony <span>Pena</span></h2>
 
-### CTO front
+### Developpeur Web fullstack
 <!-- .element: class="icon-rule icon-first" -->
 
-### @jefbinomed
+### @_Anthony_Pena
 <!-- .element: class="icon-twitter icon-second" -->
 
-### fake.email@sfeir.com
+### anthony.pena@outlook.fr
 
 <!-- .element: class="icon-mail icon-third" -->
