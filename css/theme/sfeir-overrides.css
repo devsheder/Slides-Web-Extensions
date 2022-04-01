@@ -170,8 +170,8 @@
   --heading2Size: 2.11em;
   --heading3Size: 1.55em;
   --heading4Size: 1em;
-  --linkColor: #434343;
-  --linkColorHover: #767676;
+  --linkColor: #575eaaff;
+  --linkColorHover: #9b9fcc;
   --selectionBackgroundColor: rgba(140, 191, 240, 0.8);
   --selectionColor: #fff;
 }
@@ -416,7 +416,7 @@ body {
  * LINKS
  *********************************************/
 .reveal a {
-  color: #434343;
+  color: #575eaaff;
   text-decoration: none;
   -webkit-transition: color 0.15s ease;
   -moz-transition: color 0.15s ease;
@@ -424,14 +424,14 @@ body {
 }
 
 .reveal a:hover {
-  color: #767676;
+  color: #9b9fcc;
   text-shadow: none;
   border: none;
 }
 
 .reveal .roll span:after {
   color: #fff;
-  background: #1d1d1d;
+  background: #3d4278;
 }
 
 /*********************************************
@@ -457,7 +457,7 @@ body {
 
 .reveal a:hover img {
   background: rgba(255, 255, 255, 0.2);
-  border-color: #434343;
+  border-color: #575eaaff;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.55);
 }
 
@@ -465,7 +465,7 @@ body {
  * NAVIGATION CONTROLS
  *********************************************/
 .reveal .controls {
-  color: #434343;
+  color: #575eaaff;
 }
 
 /*********************************************
@@ -473,7 +473,7 @@ body {
  *********************************************/
 .reveal .progress {
   background: rgba(0, 0, 0, 0.2);
-  color: #434343;
+  color: #575eaaff;
 }
 
 .reveal .progress span {

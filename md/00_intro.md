@@ -3,5 +3,3 @@
 # Les WebExtensions
 
 ## Ou comment enrichir son application sans y toucher
-
-##==##

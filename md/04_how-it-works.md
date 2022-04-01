@@ -8,7 +8,8 @@
 
 ## Manifest
 
-Point d'entrée principal du browser : `manifest.json`
+Point d'entrée principal du browser :
+`manifest.json`
 ```json
 {
     // Attributs minimums obligatoires
@@ -31,7 +32,6 @@ V2 release Firefox / V3 release Chrome
 
 [https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/manifest_version](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/manifest_version)
 
-
 ##==##
 
 <!-- .slide: class="with-code-bg-dark consolas" -->
@@ -39,24 +39,24 @@ V2 release Firefox / V3 release Chrome
 ## Manifest permissions
 
 Permissions déclarées à l'install :
- - `host_permissions` : uniquement pour Chrome
+ - `host_permissions` : uniquement pour Chrome Manifest V3
  - `permissions` : pour Firefox et Chrome, enfin presque...
 
-Manifest :
-
+`manifest.json`
 ```json
 {
     ...
-    // Permissions
-    "host_permissions": [               // Chrome uniquement
+    "host_permissions": [               // Chrome MV3 uniquement
         "*://developer.mozilla.org/*"
     ], 
     "permissions": [
-        "*://developer.mozilla.org/*",  // Firerox uniquement
+        "*://developer.mozilla.org/*",  // Chrome MV2 et Firefox
         "webRequest"                    // Chrome et Firefox
     ]
 }
 ```
+[https://developer.mozilla.org/fr/docs/Mozilla/Add-ons/WebExtensions/manifest.json/permissions](https://developer.mozilla.org/fr/docs/Mozilla/Add-ons/WebExtensions/manifest.json/permissions)
+[https://developer.chrome.com/docs/extensions/mv3/declare_permissions](https://developer.chrome.com/docs/extensions/mv3/declare_permissions/)
 
 ##==##
 
@@ -66,19 +66,17 @@ Manifest :
 
 Permissions déclarées optionnelles : `optional_permissions`
 
-Manifest :
-
+`manifest.json`
 ```json
 {
     ...
-    // Permissions
     "optional_permissions": [
         "*://developer.mozilla.org/*",  // Firerox uniquement
-        "tabs"
+        "tabs"                          // Chrome et Firefox
     ],
 }
 ```
-
+[https://developer.mozilla.org/fr/docs/Mozilla/Add-ons/WebExtensions/manifest.json/optional_permissions](https://developer.mozilla.org/fr/docs/Mozilla/Add-ons/WebExtensions/manifest.json/optional_permissions)
 
 ##==##
 
@@ -88,10 +86,9 @@ Manifest :
 
 Demande une permission à l'utilisateur
 
-Chrome :
+`Chrome :`
 ```js
-void chrome.permissions.request(
-    {
+void chrome.permissions.request({
         permissions: String[],
         origins: String[]
     },
@@ -99,10 +96,9 @@ void chrome.permissions.request(
 )
 ```
 
-Firefox :
+`Firefox :`
 ```js
-Promise<boolean> browser.permissions.request(
-    {
+Promise<boolean> browser.permissions.request({
         permissions: String[],
         origins: String[]
     }
@@ -117,46 +113,94 @@ Promise<boolean> browser.permissions.request(
 
 ## Cycles de vie
 
-1. Au chargement du browser<br/><br/><br/><br/>
+1. Browser<br/><br/><br/><br/>
 
-1. Au chargement d'une page web
+1. Page web<br/><br/><br/><br/>
+
+1. Devtools
 
 ##==##
 
 <!-- .slide: class="with-code-bg-dark consolas" -->
 
-## Lancement du browser
+## Cycle de vie - Lancement du browser
 
-Exécution unique d'une ressource de la web-ext
+Exécution <b>unique</b> d'une ressource de la web-ext :
+ - au lancement du browser
+ - à l'installation de l'extension
 
-`Manifest.json` :
-
+`manifest.json`
 ```json
 {
     ...
     "background": {
-        "scripts": ["background-script.js"], // Firefox et Chrome manifest V2
-        "service_worker": ["background-script.js"] // Chrome seulement manifest V3
+        "scripts": ["background-script.js"], // Firefox et Chrome M2
+        "service_worker": ["background-script.js"] // Chrome MV3 uniquement
     },
 }
 ```
+
+[https://developer.mozilla.org/fr/docs/Mozilla/Add-ons/WebExtensions/manifest.json/background](https://developer.mozilla.org/fr/docs/Mozilla/Add-ons/WebExtensions/manifest.json/background)
 
 ##==##
 
 <!-- .slide: class="with-code-bg-dark consolas" -->
 
-## Page Web
+## Cycle de vie - Chargement page Web
 
 Exécution liée à une page Web
 
-`Manifest.json` :
+`manifest.json`
 
 ```json
 {
     ...
     "content_scripts": [{
         "matches": ["*://*.mozilla.org/*"],
-        "js": ["index.js"]
+        "js": ["index.js"],
+        "run_at": "document_start" | "document_end" | "document_idle" // optionnel (par défaut document_idle)
     }]
 }
 ```
+[https://developer.mozilla.org/fr/docs/Mozilla/Add-ons/WebExtensions/manifest.json/content_scripts](https://developer.mozilla.org/fr/docs/Mozilla/Add-ons/WebExtensions/manifest.json/content_scripts)
+
+##==##
+
+<!-- .slide: class="with-code-bg-dark consolas" -->
+
+## Cycle de vie - Devtools
+
+Exécution liée à l'ouverture des devtools (F12)
+
+`manifest.json`
+```json
+{
+    ...
+    "devtools_page": ["devtool.html"]
+}
+```
+[https://developer.mozilla.org/fr/docs/Mozilla/Add-ons/WebExtensions/manifest.json/devtools_page](https://developer.mozilla.org/fr/docs/Mozilla/Add-ons/WebExtensions/manifest.json/devtools_page)
+
+##==##
+
+<!-- .slide: class="center" -->
+
+## Exécution
+ - isolation
+ - background
+
+##==##
+
+<!-- .slide: -->
+
+## Exécution - isolation
+
+![h-800 center](./assets/images/execution_isolation.jpg)
+
+##==##
+
+<!-- .slide: -->
+
+## Exécution - background
+
+![h-800 center](./assets/images/execution_background.jpg)

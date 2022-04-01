@@ -155,3 +155,7 @@ LAYOUT
     padding-right: 15px;
     background: linear-gradient(to right, $gold, #ffc107);
 }
+
+.reveal a {
+    white-space: nowrap;
+}
