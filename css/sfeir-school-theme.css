@@ -416,7 +416,7 @@ body {
  * LINKS
  *********************************************/
 .reveal a {
-  color: #b89797;
+  color: #434343;
   text-decoration: none;
   -webkit-transition: color 0.15s ease;
   -moz-transition: color 0.15s ease;
@@ -2261,8 +2261,11 @@ OVERRIDE FONTS
   src: url("../fonts/steamy/Steamy.otf");
 }
 .reveal {
-  font-family: "Steampuff", "Helvetica Neue", Helvetica, "Microsoft YaHei", "WenQuanYi Micro Hei", Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, "Microsoft YaHei", "WenQuanYi Micro Hei", Arial, sans-serif;
   color: white;
+}
+.reveal h1, .reveal h2 {
+  font-family: "Steampuff", "Helvetica Neue", Helvetica, "Microsoft YaHei", "WenQuanYi Micro Hei", Arial, sans-serif;
 }
 
 .reveal .slides section.sfeir-basic-slide:not(.stack),
