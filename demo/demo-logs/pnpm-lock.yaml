@@ -2281,7 +2281,7 @@ packages:
     engines: {node: '>=6'}
     hasBin: true
     dependencies:
-      minimist: 1.2.6
+      minimist: 1.2.5
     dev: true
 
   /jsonfile/6.1.0:
@@ -3738,7 +3738,7 @@ packages:
     hasBin: true
     dependencies:
       exec-sh: 0.2.2
-      minimist: 1.2.6
+      minimist: 1.2.5
     dev: true
 
   /watchpack/2.1.1:

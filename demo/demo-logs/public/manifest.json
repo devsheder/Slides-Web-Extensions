@@ -1,14 +1,20 @@
 {
-  "name": "Demo Logs",
-  "version": "1.0",
-  "manifest_version": 2,
-  "devtools_page": "devtool.html",
-  "background": {
-    "scripts": ["background.js"]
-  },
-  "permissions": [
-      "webRequest",
-      "<all_urls>"
-  ],
-  "action": {}
+    "name": "Demo Logs",
+    "version": "1.0",
+    "manifest_version": 2,
+    "devtools_page": "devtool.html",
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "applications": {
+        "gecko": {
+            "id": "demo_log@example.com",
+            "strict_min_version": "60.0"
+        }
+    },
+    "permissions": [
+        "webRequest",
+        "<all_urls>",
+        "nativeMessaging"
+    ]
 }

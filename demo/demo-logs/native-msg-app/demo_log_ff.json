@@ -1,0 +1,7 @@
+{
+    "name": "demo_log",
+    "description": "Example host for native messaging",
+    "path": "HOST_PATH",
+    "type": "stdio",
+    "allowed_extensions": [ "demo_log@example.com" ]
+}

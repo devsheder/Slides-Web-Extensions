@@ -1,3 +1,8 @@
+if (typeof window != "undefined") {
+  window.browserObject = window.browser !== undefined ? browser : chrome;
+} else {
+  browserObject = chrome;
+}
 
 const PENDING = new Map();
 
@@ -21,7 +26,7 @@ function handleOnCompleted(requestDetails) {
 }
 
 function sendMessage(message) {
-  browser.runtime.sendMessage(message).catch(()=>{});
+  browserObject.runtime.sendMessage(message).catch(()=>{});
 }
 
 function decodeRawByteBody(details) {
@@ -35,7 +40,20 @@ function decodeRawByteBody(details) {
   );
 }
 
-browser.webRequest.onBeforeRequest.addListener(handleOnBeforeRequest, { urls: ['<all_urls>'] }, ['requestBody']);
-browser.webRequest.onCompleted.addListener(handleOnCompleted, { urls: ['<all_urls>'] });
+browserObject.webRequest.onBeforeRequest.addListener(handleOnBeforeRequest, { urls: ['<all_urls>'] }, ['requestBody']);
+browserObject.webRequest.onCompleted.addListener(handleOnCompleted, { urls: ['<all_urls>'] });
 
 console.log('listen for calls to /logs');
+
+var port = browserObject.runtime.connectNative("demo_log");
+
+console.log(JSON.stringify(port));
+
+/*
+Listen for messages from the app.
+*/
+port.onMessage.addListener((response) => {
+  console.log("Received: " + response);
+});
+
+port.postMessage("ping");

@@ -1,4 +1,10 @@
-browser.devtools.panels.create(
+if (typeof window != "undefined") {
+  window.browserObject = window.browser !== undefined ? browser : chrome;
+} else {
+  browserObject = chrome;
+}
+
+browserObject.devtools.panels.create(
     "Demo Logs",                      // title
     "icons/star.png",                // icon
     "index.html"      // content
