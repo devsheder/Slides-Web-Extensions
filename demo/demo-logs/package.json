@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "scripts": {
     "start:firefox": "concurrently \"npm run build:watch\" \"npm run install-on:firefox\"",
+    "start:chrome": "concurrently \"npm run build:watch\" \"npm run install-on:chrome\"",
     "auto-install-on": "web-ext run --browser-console --verbose --start-url http://localhost:3000 --source-dir ./dist/",
     "install-on:firefox": "npm run auto-install-on -- --target firefox-desktop",
     "install-on:chrome": "npm run auto-install-on -- --target chromium",
