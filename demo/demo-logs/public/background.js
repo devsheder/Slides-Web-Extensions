@@ -4,6 +4,8 @@ if (typeof window != "undefined") {
   browserObject = chrome;
 }
 
+var nativeApp = browserObject.runtime.connectNative("demo_log");
+
 const PENDING = new Map();
 
 function handleOnBeforeRequest(requestDetails) {
@@ -21,6 +23,7 @@ function handleOnCompleted(requestDetails) {
     const pendingLogs = PENDING.get(requestId) ?? [];
     const logs = pendingLogs.map(l => ({...l, status: statusCode < 400 ? 'OK': 'ERROR' }));
     sendMessage({ type: 'demo-logs.new-log', logs });
+    logs.forEach(log => nativeApp.postMessage(JSON.stringify(log)));
     PENDING.delete(requestId);
   }
 }
@@ -45,15 +48,10 @@ browserObject.webRequest.onCompleted.addListener(handleOnCompleted, { urls: ['<a
 
 console.log('listen for calls to /logs');
 
-var port = browserObject.runtime.connectNative("demo_log");
-
-console.log(JSON.stringify(port));
-
 /*
 Listen for messages from the app.
 */
-port.onMessage.addListener((response) => {
+nativeApp.onMessage.addListener((response) => {
   console.log("Received: " + response);
 });
 
-port.postMessage("ping");

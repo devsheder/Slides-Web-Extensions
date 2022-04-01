@@ -10,7 +10,7 @@
     "install-on:chrome": "npm run auto-install-on -- --target chromium",
     "dev": "vite",
     "build": "tsc && vite build",
-    "build:watch": "watch 'npm run build' src",
+    "build:watch": "watch 'npm run build' src public",
     "preview": "vite preview"
   },
   "dependencies": {

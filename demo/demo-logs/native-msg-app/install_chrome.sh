@@ -16,7 +16,7 @@ else
   if [ "$(whoami)" = "root" ]; then
     TARGET_DIR="/etc/opt/chrome/native-messaging-hosts"
   else
-    TARGET_DIR="$HOME/.config/google-chrome/NativeMessagingHosts"
+    TARGET_DIR="$HOME/.config/chromium/NativeMessagingHosts"
   fi
 fi
 

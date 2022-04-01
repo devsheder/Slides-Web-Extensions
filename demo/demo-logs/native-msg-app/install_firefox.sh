@@ -11,9 +11,9 @@ if [ "$(uname -s)" = "Darwin" ]; then
   TARGET_DIR="$HOME/Library/Application Support/Mozilla/NativeMessagingHosts"
 else
   if [ "$(whoami)" = "root" ]; then
-    TARGET_DIR="/etc/opt/chrome/native-messaging-hosts"
+    TARGET_DIR="/usr/lib64/mozilla/native-messaging-hosts"
   else
-    TARGET_DIR="$HOME/.config/google-chrome/NativeMessagingHosts"
+    TARGET_DIR="$HOME/.mozilla/native-messaging-hosts"
   fi
 fi
 
@@ -32,7 +32,7 @@ sed -i -e "s/HOST_PATH/$ESCAPED_HOST_PATH/" "$TARGET_DIR/$HOST_NAME.json"
 
 # Set permissions for the manifest so that all users can read it.
 chmod o+r "$TARGET_DIR/$HOST_NAME.json"
-rm "$TARGET_DIR/$HOST_NAME.json-e"
+rm -f "$TARGET_DIR/$HOST_NAME.json-e"
 mv "$TARGET_DIR/$HOST_NAME.json" "$TARGET_DIR/demo_log.json"
 
 echo "Native messaging host $HOST_NAME has been installed in $TARGET_DIR"
