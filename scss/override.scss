@@ -159,3 +159,13 @@ LAYOUT
 .reveal a {
     white-space: nowrap;
 }
+
+.reveal .slides .sfeir-basic-slide
+{
+    background: url("../assets/images/logo_devoxx_france.png") no-repeat bottom right;
+    background-size: 20rem;
+}
+
+.reveal .slides .sfeir-basic-slide.two-column-layout .sfeir-basic-slide {
+    background-image: none;
+}
