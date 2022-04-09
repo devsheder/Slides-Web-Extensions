@@ -187,6 +187,7 @@ Exécution liée à l'ouverture des devtools (F12)
 
 ## Exécution
  - isolation
+ <br /><br />
  - background
 
 ##==##
@@ -204,3 +205,55 @@ Exécution liée à l'ouverture des devtools (F12)
 ## Exécution - background
 
 ![h-800 center](./assets/images/execution_background.jpg)
+
+##==##
+
+<!-- .slide: -->
+
+## Installation
+
+ - en dév
+<br /><br />
+ - en entreprise
+<br /><br />
+ - en grand public
+
+##==##
+
+<!-- .slide: -->
+
+## Installation - dev
+[chrome://extensions/](chrome://extensions/)
+
+![center](./assets/images/chrome_dev_extensions.png)
+
+
+![h-400 center](./assets/images/chrome_dev_webext.png)
+
+
+##==##
+
+<!-- .slide: -->
+
+## Installation - en entreprise
+ - windows : déploiement par GPO
+ <br /><br /><br />
+ - linux : déploiement par script au lancement
+
+##==##
+
+<!-- .slide: class="two-column-layout" -->
+
+## Installation - grand public
+##--##
+Un store par plateforme
+<br /><br /><br /><br />
+
+![h-200](./assets/images/chrome_store.png)
+
+##--##
+<br /><br />
+
+![h-200 center](./assets/images/firefox_store.png)
+
+![h-200 center](./assets/images/safari_store.png)
