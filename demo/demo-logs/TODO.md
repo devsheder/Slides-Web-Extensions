@@ -1,0 +1,17 @@
+- ajouter brave/edge sur la page compat mobile
+- retirer les mails
+- ajouter GreaseMonkey
+- attention aux majuscules/minuscules en début de phrase
+- attention aux fautes !!! http://127.0.0.1:4242/index.html#/8
+- cacher les liens / les basculer en slide de référence
+- moins détailler les exemples
+- utiliser le style big code pour les slides de code
+- http://127.0.0.1:4242/index.html#/29 aligner l'image au centre
+- indiquer que le background script n'a pas accès à l'UI !
+- clarifier la communication entre content script / background script / devtools / ...
+- virer le 2 columns layout
+- retravailler le story telling de la demo
+- ajouter une slide conclusion avant la slide question
+- slide merci avec nos contacts
+- évoquer la communauté, l'avenir, comment va évoluer la v3, etc.
+- recheck le problème d'activation
