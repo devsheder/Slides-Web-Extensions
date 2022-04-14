@@ -199,6 +199,14 @@ isolation & background
 
 <!-- .slide: -->
 
+## Exécution - APIs
+
+![h-800 center](./assets/images/execution_apis.jpg)
+
+##==##
+
+<!-- .slide: -->
+
 ## Installation
 
 Suivant les contextes
@@ -211,7 +219,6 @@ Suivant les contextes
 [chrome://extensions/](chrome://extensions/)
 
 ![center](./assets/images/chrome_dev_extensions.png)
-
 
 ![h-400 center](./assets/images/chrome_dev_webext.png)
 

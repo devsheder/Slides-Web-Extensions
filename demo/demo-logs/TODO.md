@@ -1,8 +1,7 @@
 - ajouter GreaseMonkey
 - moins détailler les exemples
 - utiliser le style big code pour les slides de code
-- clarifier la communication entre content script / background script / devtools / ...
-- virer le 2 columns layout
+- virer le 2 columns layout => reste slide Form troubleshooter
 - retravailler le story telling de la demo
 - évoquer la communauté, l'avenir, comment va évoluer la v3, etc.
 - recheck le problème d'activation
