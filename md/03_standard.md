@@ -7,10 +7,10 @@
 # C'est quoi une WebExtensions ?
 
 <!-- Notes: -->
-- les WebExt sont issue des Chrome Apps
-- les WebExt sont standardisés par le w3c
+- Les WebExt sont issues des Chrome Apps
+- Les WebExt sont standardisées par le w3c
 - On utilise du html, du css et du js standard
-    - avec quelques déclarations en plus (manisfest.json en particulier)
+    - avec quelques déclarations en plus (manifest.json en particulier)
 
 ##==##
 
@@ -51,8 +51,6 @@
 - Panneaux latéraux (Sidebars)
     - ajouter un panneau
 
-[https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface/Sidebars](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface/Sidebars)
-
 ##==##
 
 # Un champ des possibles presque infini
@@ -87,7 +85,7 @@
 - Menu contextuel
 - Devtools
 - Préférences
-    - avoir une page dédié aux préférences de notre webext
+    - avoir une page dédiée aux préférences de notre webext
 
 ##==##
 
@@ -106,7 +104,7 @@
 
 # Quelques exemple d'extensions
 
-- filtrer le contenu 
+- Filtrer le contenu 
     - AdblockPlus
     - uBlock Origin
     - Ghostery
@@ -118,8 +116,8 @@
 
 # Quelques exemple d'extensions
 
-- filtrer le contenu
-- étendre le navigateur
+- Filtrer le contenu
+- Etendre le navigateur
     - Dark Reader
     - Papaly
     - Firefox multi-account coutainers
@@ -130,9 +128,9 @@
 
 # Quelques exemple d'extensions
 
-- filtrer le contenu
-- étendre le navigateur
-- étendre les sites
+- Filtrer le contenu
+- Etendre le navigateur
+- Etendre les sites
     - Wide Github
     - Refined Github
     - LinkedIn Extension
@@ -144,10 +142,10 @@
 
 # Quelques exemple d'extensions
 
-- filtrer le contenu
-- étendre le navigateur
-- étendre les sites
-- correction
+- Filtrer le contenu
+- Etendre le navigateur
+- Etendre les sites
+- Correction
     - Grammalecte
     - Grammarly
     - ...
@@ -156,11 +154,11 @@
 
 # Quelques exemple d'extensions
 
-- filtrer le contenu
-- étendre le navigateur
-- étendre les sites
-- correction
-- intéragir avec l'OS
+- Filtrer le contenu
+- Etendre le navigateur
+- Etendre les sites
+- Correction
+- Intéragir avec l'OS
     - GNOME Shell Extensions
     - Bitwarden
     - 1Password
@@ -171,12 +169,12 @@
 
 # Quelques exemple d'extensions
 
-- filtrer le contenu
-- étendre le navigateur
-- étendre les sites
-- correction
-- intéragir avec l'OS
-- outils développeur
+- Filtrer le contenu
+- Etendre le navigateur
+- Etendre les sites
+- Correction
+- Intéragir avec l'OS
+- Outils développeur
     - React DevTools
     - Vue DevTools
     - Angular DevTools
@@ -188,13 +186,13 @@
 
 # Quelques exemple d'extensions
 
-- filtrer le contenu
-- étendre le navigateur
-- étendre les sites
-- correction
-- intéragir avec l'OS
-- outils développeur
-- clients
+- Filtrer le contenu
+- Etendre le navigateur
+- Etendre les sites
+- Correction
+- Intéragir avec l'OS
+- Outils développeur
+- Clients
     - RESTED
     - ...
 
@@ -202,13 +200,13 @@
 
 # Quelques exemple d'extensions
 
-- filtrer le contenu
-- étendre le navigateur
-- étendre les sites
-- correction
-- intéragir avec l'OS
-- outils développeur
-- clients
+- Filtrer le contenu
+- Etendre le navigateur
+- Etendre les sites
+- Correction
+- Intéragir avec l'OS
+- Outils développeur
+- Clients
 - ...
 
 ##==##
@@ -219,9 +217,6 @@
 Mention spéciale pour Form troubleshooter..
 
 ![h-600](./assets/images/form-troubleshooter.png)
-
-
-https://github.com/GoogleChromeLabs/form-troubleshooter#how-it-works=
 
 
 ##==##
@@ -240,7 +235,3 @@ Mention spéciale pour Form troubleshooter...
 qui détaille très bien son fonctionnement !
 
 ![h-450 hidden](./assets/images/form-troubleshooter-how-it-works.png)
-
-https://github.com/GoogleChromeLabs/form-troubleshooter#how-it-works=
-
-

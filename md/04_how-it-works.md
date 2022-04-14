@@ -28,9 +28,7 @@ Point d'entrée principal du browser :
 
 V2 release Firefox / V3 release Chrome
 
-![h-600](./assets/images/manifest_version_compatibility.png)
-
-[https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/manifest_version](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/manifest_version)
+![h-600 center](./assets/images/manifest_version_compatibility.png)
 
 ##==##
 
@@ -55,8 +53,6 @@ Permissions déclarées à l'install :
     ]
 }
 ```
-[https://developer.mozilla.org/fr/docs/Mozilla/Add-ons/WebExtensions/manifest.json/permissions](https://developer.mozilla.org/fr/docs/Mozilla/Add-ons/WebExtensions/manifest.json/permissions)
-[https://developer.chrome.com/docs/extensions/mv3/declare_permissions](https://developer.chrome.com/docs/extensions/mv3/declare_permissions/)
 
 ##==##
 
@@ -76,7 +72,6 @@ Permissions déclarées optionnelles : `optional_permissions`
     ],
 }
 ```
-[https://developer.mozilla.org/fr/docs/Mozilla/Add-ons/WebExtensions/manifest.json/optional_permissions](https://developer.mozilla.org/fr/docs/Mozilla/Add-ons/WebExtensions/manifest.json/optional_permissions)
 
 ##==##
 
@@ -140,8 +135,6 @@ Exécution <b>unique</b> d'une ressource de la web-ext :
 }
 ```
 
-[https://developer.mozilla.org/fr/docs/Mozilla/Add-ons/WebExtensions/manifest.json/background](https://developer.mozilla.org/fr/docs/Mozilla/Add-ons/WebExtensions/manifest.json/background)
-
 ##==##
 
 <!-- .slide: class="with-code-bg-dark consolas" -->
@@ -162,7 +155,6 @@ Exécution liée à une page Web
     }]
 }
 ```
-[https://developer.mozilla.org/fr/docs/Mozilla/Add-ons/WebExtensions/manifest.json/content_scripts](https://developer.mozilla.org/fr/docs/Mozilla/Add-ons/WebExtensions/manifest.json/content_scripts)
 
 ##==##
 
@@ -179,16 +171,13 @@ Exécution liée à l'ouverture des devtools (F12)
     "devtools_page": ["devtool.html"]
 }
 ```
-[https://developer.mozilla.org/fr/docs/Mozilla/Add-ons/WebExtensions/manifest.json/devtools_page](https://developer.mozilla.org/fr/docs/Mozilla/Add-ons/WebExtensions/manifest.json/devtools_page)
 
 ##==##
 
 <!-- .slide: class="center" -->
 
 ## Exécution
- - isolation
- <br /><br />
- - background
+isolation & background
 
 ##==##
 
@@ -212,11 +201,7 @@ Exécution liée à l'ouverture des devtools (F12)
 
 ## Installation
 
- - en dév
-<br /><br />
- - en entreprise
-<br /><br />
- - en grand public
+Suivant les contextes
 
 ##==##
 
@@ -236,24 +221,24 @@ Exécution liée à l'ouverture des devtools (F12)
 <!-- .slide: -->
 
 ## Installation - en entreprise
- - windows : déploiement par GPO
- <br /><br /><br />
- - linux : déploiement par script au lancement
+windows : déploiement par GPO
 
 ##==##
 
-<!-- .slide: class="two-column-layout" -->
+<!-- .slide: -->
+
+## Installation - en entreprise
+linux : déploiement par script au lancement
+
+
+##==##
+
+<!-- .slide: -->
 
 ## Installation - grand public
-##--##
-Un store par plateforme
-<br /><br /><br /><br />
 
-![h-200](./assets/images/chrome_store.png)
+![h-200 center](./assets/images/chrome_store.png)
 
-##--##
-<br /><br />
-
-![h-200 center](./assets/images/firefox_store.png)
+![h-250 center](./assets/images/firefox_store.png)
 
 ![h-200 center](./assets/images/safari_store.png)

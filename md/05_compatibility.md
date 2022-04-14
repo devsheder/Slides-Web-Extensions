@@ -6,44 +6,26 @@
 
 <!-- .slide: -->
 
-## Compatibilité multi-browsers
+## Compatibilité - manifest
 
-- structure de la web ext
-<br/><br/><br/>
-- APIs JS
+![h-600 center](./assets/images/browser_compatibility.png)
 
 ##==##
 
 <!-- .slide: -->
 
-## Compatibilité - manifest
-
-![h-600 center](./assets/images/browser_compatibility.png)
-
-[https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Browser_compatibility_for_manifest.json](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Browser_compatibility_for_manifest.json)
-
-[https://github.com/mdn/browser-compat-data](https://github.com/mdn/browser-compat-data)
-
-##==##
-
-<!-- .slide: class="two-column-layout" -->
-
 ## Compatibilité - API Js
 
-##--##
-
 <b>Chrome / Safari</b>
-
-<br />
 
 Namespace : `chrome`
 
 Asynchronous callbacks `() => {}`
 
-##--##
+<br /> <br />
+
 <b>Firefox / Safari</b>
 
-<br />
 
 Namespace : `browser`
 
@@ -76,13 +58,11 @@ Asynchronous `Promise`
 }
 ```
 
-[https://github.com/mozilla/webextension-polyfill](https://github.com/mozilla/webextension-polyfill)
-
 ##==##
 
 <!-- .slide: class="flex-row" -->
 
-## Compatibilité - build
+## Compatibilité - Build
 
 Géré par votre CI préférée
 
@@ -96,8 +76,13 @@ Géré par votre CI préférée
 
 ## Compatibilité - Et sur mobile ?
 
-Chrome : ❌
 
 Firefox : ✅
 
 Safari : ✅
+
+Chrome : ❌
+
+Brave : ❌
+
+Edge : ❌

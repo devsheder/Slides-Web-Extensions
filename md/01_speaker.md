@@ -15,10 +15,6 @@
 ### @AdrienLASSELLE
 <!-- .element: class="icon-twitter icon-second" -->
 
-### adrien.lasselle@gmail.com
-
-<!-- .element: class="icon-mail icon-third" -->
-
 ##==##
 
 <!-- .slide: class="speaker-slide blue" -->
@@ -36,7 +32,3 @@
 
 ### @_Anthony_Pena
 <!-- .element: class="icon-twitter icon-second" -->
-
-### anthony.pena@outlook.fr
-
-<!-- .element: class="icon-mail icon-third" -->

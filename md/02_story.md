@@ -23,12 +23,12 @@ Notes:
 
 # Avant les WebExtensions
 
-- Les extensions par navigateurs
+- Les extensions par navigateur
     - XUL (XML User Interface Language / Firefox)
     - ActiveX (IE)
     - Chrome Apps
 
 Notes:
-- mise à jour géré par le navigateur
+- mise à jour gérée par le navigateur
 - documenté plus ou moins bien
 - chaque navigateur a sa solution
