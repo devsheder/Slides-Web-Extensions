@@ -37,14 +37,11 @@ V2 release Firefox / V3 release Chrome
 
 ## Manifest permissions
 
-Permissions déclarées à l'install :
- - `host_permissions` : uniquement pour Chrome Manifest V3
- - `permissions` : pour Firefox et Chrome, enfin presque...
+Permissions déclarées à l'installation
 
 `manifest.json`
 ```json
 {
-    ...
     "host_permissions": [               // Chrome MV3 uniquement
         "*://developer.mozilla.org/*"
     ], 
@@ -52,6 +49,7 @@ Permissions déclarées à l'install :
         "*://developer.mozilla.org/*",  // Chrome MV2 et Firefox
         "webRequest"                    // Chrome et Firefox
     ]
+    ...
 }
 ```
 <!-- .element: class="big-code" -->
@@ -84,8 +82,6 @@ Permissions déclarées optionnelles : `optional_permissions`
 
 <!-- Demande une permission à l'utilisateur -->
 
-<div class="flex-row align-stretch">
-
 ```js
 // Chrome :
 
@@ -96,7 +92,13 @@ void chrome.permissions.request({
     (granted: boolean) => {}
 )
 ```
-<!-- .element: class="big-code" style="width: 49%" -->
+<!-- .element: class="big-code" -->
+
+##==##
+
+<!-- .slide: class="with-code-bg-dark consolas" -->
+
+## Manifest permissions
 
 ```js
 // Firefox :
@@ -107,11 +109,9 @@ Promise<boolean> browser.permissions.request({
     }
 )
 ```
-<!-- .element: class="big-code" style="width: 49%" -->
+<!-- .element: class="big-code" -->
 
-</div>
-
-<!-- ⚠️ Polyfill -->
+⚠️ Polyfill
 
 ##==##
 

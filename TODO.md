@@ -1,4 +1,1 @@
-- utiliser le style big code pour les slides de code => OK mais 2 slides à revoir
-    - revoir la slide "Compatibilité - Polyfill"
-    - revoir la slide "Manifest permissions"
 - recheck le problème d'activation
