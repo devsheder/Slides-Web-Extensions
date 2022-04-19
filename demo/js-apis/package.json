@@ -1,0 +1,24 @@
+{
+  "name": "slides-web-ext-js-apis",
+  "version": "1.0.0",
+  "description": "Slides for presentation Web Extension with RevealJS",
+  "scripts": {
+    "serve": "live-server --port=4444 --open=\"./index.html\" --watch=\"html\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devsheder/Slides-Web-Extensions.git"
+  },
+  "keywords": [
+    "web-extensions",
+    "web"
+  ],
+  "authors": [
+    "kuroidoruido",
+    "devsheder"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}

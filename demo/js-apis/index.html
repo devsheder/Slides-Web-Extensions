@@ -1,0 +1,22 @@
+<html>
+
+<body>
+    <input type="button" value="sendMessage to background"
+        onclick="javascript:chrome.runtime.sendMessage('dlabicihgpklmmbpnbfmclkjkellhmfl', 'toto')" />
+
+    <br />
+
+    <input type="button" value="sendMessage to content_script"
+        onclick="javascript:window.postMessage('content_script') // sending message to content_script" />
+
+    <script>
+        window.addEventListener("message", (o) => {
+            if (o.data === "front") {
+                // sending message from content_script
+                console.log("front", o)
+            }
+        });
+    </script>
+</body>
+
+</html>

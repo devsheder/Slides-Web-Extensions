@@ -1,0 +1,22 @@
+{
+    "name": "JS Apis",
+    "version": "1.0",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "matches": [
+                "*://localhost/*"
+            ],
+            "js": [
+                "content_scripts.js"
+            ]
+        }
+    ],
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "externally_connectable": {
+        "matches": ["*://localhost/*"]
+    },
+    "permissions": ["tabs"]
+}
