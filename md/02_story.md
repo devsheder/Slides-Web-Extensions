@@ -89,10 +89,9 @@ Notes:
 
 # Avant les WebExtensions : les extensions
 
-- Les extensions par navigateur
-    - XUL (XML User Interface Language / Firefox)
-    - ActiveX (IE)
-    - Chrome Apps
+- XUL (XML User Interface Language / Firefox)
+- ActiveX (IE)
+- Chrome Apps
 
 ##==##
 
