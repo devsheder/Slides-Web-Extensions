@@ -1,10 +1,28 @@
-if (typeof window != "undefined") {
+//#region A tiny polyfill to be compatible with Chrome and Firefox
+
+if (typeof window != 'undefined') {
   window.browserObject = window.browser !== undefined ? browser : chrome;
 } else {
   browserObject = chrome;
 }
 
-var nativeApp = browserObject.runtime.connectNative("demo_log");
+//#endregion
+
+//#region We init native messaging and start listening
+
+const nativeAppId = 'demo_log';
+const nativeApp = browserObject.runtime.connectNative(nativeAppId);
+nativeApp.onMessage.addListener((response) => {
+  console.log("Received: " + response);
+});
+
+browserObject.webRequest.onBeforeRequest.addListener(handleOnBeforeRequest, { urls: ['<all_urls>'] }, ['requestBody']);
+browserObject.webRequest.onCompleted.addListener(handleOnCompleted, { urls: ['<all_urls>'] });
+console.log('listen for calls to /logs');
+
+//#endregion
+
+//#region handlers
 
 const PENDING = new Map();
 
@@ -22,15 +40,15 @@ function handleOnCompleted(requestDetails) {
     console.log('handleOnCompleted : ', requestDetails, statusCode);
     const pendingLogs = PENDING.get(requestId) ?? [];
     const logs = pendingLogs.map(l => ({...l, status: statusCode < 400 ? 'OK': 'ERROR' }));
-    sendMessage({ type: 'demo-logs.new-log', logs });
+    browserObject.runtime.sendMessage({ type: 'demo-logs.new-log', logs })?.catch(()=>{});
     logs.forEach(log => nativeApp.postMessage(JSON.stringify(log)));
     PENDING.delete(requestId);
   }
 }
 
-function sendMessage(message) {
-  browserObject.runtime.sendMessage(message).catch(()=>{});
-}
+//#endregion
+
+//#region UTILS
 
 function decodeRawByteBody(details) {
   return JSON.parse(
@@ -43,15 +61,4 @@ function decodeRawByteBody(details) {
   );
 }
 
-browserObject.webRequest.onBeforeRequest.addListener(handleOnBeforeRequest, { urls: ['<all_urls>'] }, ['requestBody']);
-browserObject.webRequest.onCompleted.addListener(handleOnCompleted, { urls: ['<all_urls>'] });
-
-console.log('listen for calls to /logs');
-
-/*
-Listen for messages from the app.
-*/
-nativeApp.onMessage.addListener((response) => {
-  console.log("Received: " + response);
-});
-
+//#endregion

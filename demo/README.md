@@ -9,7 +9,7 @@
 ```bash
 cd demo/lego-website
 pnpm i
-pnpm dev
+pnpm start
 ```
 
 ## build de web extension
@@ -18,13 +18,8 @@ pnpm dev
 cd demo/demo-logs
 pnpm i
 pnpm build
+pnpm start:firefox # or pnpm start:chrome
 ```
-
-## how to use it?
-
-- install the web extension on your browser
-- open the demo website
-- open the devtool panel called "Demo Logs"
 
 ## Screenshot
 

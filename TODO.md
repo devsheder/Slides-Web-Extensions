@@ -1,5 +1,4 @@
 - utiliser le style big code pour les slides de code => OK mais 2 slides à revoir
     - revoir la slide "Compatibilité - Polyfill"
     - revoir la slide "Manifest permissions"
-- retravailler le story telling de la demo
 - recheck le problème d'activation
