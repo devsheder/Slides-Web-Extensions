@@ -2402,4 +2402,17 @@ LAYOUT
   background-image: none;
 }
 
+.flex-row.align-stretch {
+  align-items: stretch !important;
+}
+
+.reveal .slides pre > code {
+  height: 100%;
+  margin-bottom: 0;
+}
+
+.reveal .slides img[alt~=hidden] {
+  visibility: hidden;
+}
+
 /*# sourceMappingURL=sfeir-school-theme.css.map */

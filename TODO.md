@@ -1,7 +1,8 @@
 - ajouter GreaseMonkey
 - moins détailler les exemples
-- utiliser le style big code pour les slides de code
-- virer le 2 columns layout => reste slide Form troubleshooter
+- utiliser le style big code pour les slides de code => OK mais 2 slides à revoir
+    - revoir la slide "Compatibilité - Polyfill"
+    - revoir la slide "Manifest permissions"
 - retravailler le story telling de la demo
 - évoquer la communauté, l'avenir, comment va évoluer la v3, etc.
 - recheck le problème d'activation

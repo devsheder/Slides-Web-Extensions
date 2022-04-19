@@ -8,9 +8,50 @@
 
 <!-- Notes: -->
 - Les WebExt sont issues des Chrome Apps
-- Les WebExt sont standardisées par le w3c
 - On utilise du html, du css et du js standard
     - avec quelques déclarations en plus (manifest.json en particulier)
+- Les WebExt sont standardisées par le w3c
+- Tout est documenté sur MDN
+
+##==##
+
+# Versus les autres solutions ?
+
+<table>
+    <thead>
+    <tr>
+        <th></th>
+        <th>mise à jour</th>
+        <th>portabilité</th>
+        <th>documentation</th>
+    </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Snippets</td>
+            <td>❌</td>
+            <td>✅</td>
+            <td>❌</td>
+        </tr>
+        <tr>
+            <td>Extensions</td>
+            <td>✅</td>
+            <td>❌</td>
+            <td>😬</td>
+        </tr>
+        <tr>
+            <td>Web Extensions</td>
+            <td>✅</td>
+            <td>✅</td>
+            <td>✅</td>
+        </tr>
+    </tbody>
+</table>
+
+Notes:
+- mise à jour gérée par le navigateur
+- chaque navigateur a sa solution
+- documenté plus ou moins bien
 
 ##==##
 
@@ -210,28 +251,9 @@
 - ...
 
 ##==##
-<!-- .slide: -->
+<!-- .slide: class="flex-row" -->
 
 # Quelques exemple d'extensions
 
-Mention spéciale pour Form troubleshooter..
-
 ![h-600](./assets/images/form-troubleshooter.png)
-
-
-##==##
-<!-- .slide: class="two-column-layout" -->
-
-# Quelques exemple d'extensions
-
-##--##
-
-Mention spéciale pour Form troubleshooter...
-
-![h-600](./assets/images/form-troubleshooter.png)
-
-##--##
-
-qui détaille très bien son fonctionnement !
-
-![h-450 hidden](./assets/images/form-troubleshooter-how-it-works.png)
+![h-450](./assets/images/form-troubleshooter-how-it-works.png)

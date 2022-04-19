@@ -8,8 +8,8 @@
 
 ## Manifest
 
-Point d'entrée principal du browser :
-`manifest.json`
+Point d'entrée principal du browser : `manifest.json`
+
 ```json
 {
     // Attributs minimums obligatoires
@@ -19,6 +19,7 @@ Point d'entrée principal du browser :
     ...
 }
 ```
+<!-- .element: class="big-code" -->
 
 ##==##
 
@@ -53,6 +54,7 @@ Permissions déclarées à l'install :
     ]
 }
 ```
+<!-- .element: class="big-code" -->
 
 ##==##
 
@@ -72,6 +74,7 @@ Permissions déclarées optionnelles : `optional_permissions`
     ],
 }
 ```
+<!-- .element: class="big-code" -->
 
 ##==##
 
@@ -79,10 +82,13 @@ Permissions déclarées optionnelles : `optional_permissions`
 
 ## Manifest permissions
 
-Demande une permission à l'utilisateur
+<!-- Demande une permission à l'utilisateur -->
 
-`Chrome :`
+<div class="flex-row align-stretch">
+
 ```js
+// Chrome :
+
 void chrome.permissions.request({
         permissions: String[],
         origins: String[]
@@ -90,17 +96,22 @@ void chrome.permissions.request({
     (granted: boolean) => {}
 )
 ```
+<!-- .element: class="big-code" style="width: 49%" -->
 
-`Firefox :`
 ```js
+// Firefox :
+
 Promise<boolean> browser.permissions.request({
         permissions: String[],
         origins: String[]
     }
 )
 ```
+<!-- .element: class="big-code" style="width: 49%" -->
 
-⚠️ Polyfill
+</div>
+
+<!-- ⚠️ Polyfill -->
 
 ##==##
 
@@ -125,6 +136,7 @@ Exécution <b>unique</b> d'une ressource de la web-ext :
  - à l'installation de l'extension
 
 `manifest.json`
+
 ```json
 {
     ...
@@ -134,6 +146,7 @@ Exécution <b>unique</b> d'une ressource de la web-ext :
     },
 }
 ```
+<!-- .element: class="big-code" -->
 
 ##==##
 
@@ -151,10 +164,12 @@ Exécution liée à une page Web
     "content_scripts": [{
         "matches": ["*://*.mozilla.org/*"],
         "js": ["index.js"],
-        "run_at": "document_start" | "document_end" | "document_idle" // optionnel (par défaut document_idle)
+        "run_at": "document_start" | "document_end" | "document_idle" 
+            // optionnel (par défaut document_idle)
     }]
 }
 ```
+<!-- .element: class="big-code" -->
 
 ##==##
 
@@ -171,6 +186,7 @@ Exécution liée à l'ouverture des devtools (F12)
     "devtools_page": ["devtool.html"]
 }
 ```
+<!-- .element: class="big-code" -->
 
 ##==##
 
@@ -228,14 +244,14 @@ Suivant les contextes
 <!-- .slide: -->
 
 ## Installation - en entreprise
-windows : déploiement par GPO
+Windows : déploiement par GPO
 
 ##==##
 
 <!-- .slide: -->
 
 ## Installation - en entreprise
-linux : déploiement par script au lancement
+Linux : déploiement par script au lancement
 
 
 ##==##
