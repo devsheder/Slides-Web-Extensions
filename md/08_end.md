@@ -23,7 +23,7 @@
 
 <!-- .slide -->
 
-# Liens (1/2)
+# Liens (1/3)
 
 https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface/Sidebars
 
@@ -42,7 +42,7 @@ https://developer.mozilla.org/fr/docs/Mozilla/Add-ons/WebExtensions/manifest.jso
 
 <!-- .slide -->
 
-# Liens (2/2)
+# Liens (2/3)
 
 
 https://developer.mozilla.org/fr/docs/Mozilla/Add-ons/WebExtensions/manifest.json/background
@@ -56,3 +56,20 @@ https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Browser_c
 https://github.com/mdn/browser-compat-data
 
 https://github.com/mozilla/webextension-polyfill
+
+
+##==##
+
+<!-- .slide -->
+
+# Liens (3/3)
+
+https://blog.mozilla.org/addons/2021/05/27/manifest-v3-update/
+
+https://discourse.mozilla.org/t/when-will-web-ext-support-manifest-v3/91514/6
+
+##==##
+
+# Crédit photos
+
+https://www.pexels.com/@padrinan/collections/
