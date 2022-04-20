@@ -21,6 +21,12 @@
 
 ##==##
 
+<!-- .slide: class="transition" data-background="./assets/images/engrenage-2.jpeg" -->
+
+# Pensez au feedback !
+
+##==##
+
 <!-- .slide -->
 
 # Liens (1/3)
