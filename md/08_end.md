@@ -8,22 +8,18 @@
 
 # Des questions ?
 
+[https://github.com/devsheder/Slides-Web-Extensions/](https://github.com/devsheder/Slides-Web-Extensions/)
+
 ##==##
 
 <!-- .slide: class="transition flex-row" data-background="./assets/images/engrenage-2.jpeg" -->
 
-# Merci 🙏
+# Merci 🙏 <br/> Pensez au feedback !
 
-![h-300](./assets/images/adrien.jpeg)
+![h-200](./assets/images/adrien.jpeg)
 @AdrienLASSELLE
-![h-300](./assets/images/anthony.jpg)
+![h-200](./assets/images/anthony.jpg)
 @_Anthony_Pena
-
-##==##
-
-<!-- .slide: class="transition" data-background="./assets/images/engrenage-2.jpeg" -->
-
-# Pensez au feedback !
 
 ##==##
 

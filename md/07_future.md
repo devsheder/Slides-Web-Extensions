@@ -17,7 +17,7 @@ Notes:
 
 <!-- .slide: class="transition" data-background="./assets/images/engrenage-1-revert.jpeg" -->
 
-# Passage à venir vers le Manifest V3
+# Passage a venir vers le Manifest V3
 
 Notes:
 - déjà sur Chrome

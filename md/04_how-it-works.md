@@ -115,15 +115,14 @@ Promise<boolean> browser.permissions.request({
 
 ##==##
 
-<!-- .slide: class="with-code-bg-dark consolas" -->
+<!-- .slide: class="transition" -->
 
-## Cycles de vie
+# Cycles de vie
 
-1. Browser<br/><br/><br/><br/>
-
-1. Page web<br/><br/><br/><br/>
-
-1. Devtools
+Notes:
+1. Browser
+2. Page web
+3. Devtools
 
 ##==##
 
@@ -190,16 +189,15 @@ Exécution liée à l'ouverture des devtools (F12)
 
 ##==##
 
-<!-- .slide: class="center" -->
+<!-- .slide: class="transition" -->
 
-## Exécution
-isolation & background
+# Execution : isolation & background
 
 ##==##
 
 <!-- .slide: -->
 
-## Exécution - isolation
+## Execution - isolation
 
 ![h-800 center](./assets/images/execution_isolation.jpg)
 
@@ -207,7 +205,7 @@ isolation & background
 
 <!-- .slide: -->
 
-## Exécution - background
+## Execution - background
 
 ![h-800 center](./assets/images/execution_background.jpg)
 
@@ -215,17 +213,15 @@ isolation & background
 
 <!-- .slide: -->
 
-## Exécution - APIs
+## Execution - APIs
 
 ![h-800 center](./assets/images/execution_apis.jpg)
 
 ##==##
 
-<!-- .slide: -->
+<!-- .slide: class="transition" -->
 
-## Installation
-
-Suivant les contextes
+# Installation & deploiement
 
 ##==##
 
@@ -244,14 +240,10 @@ Suivant les contextes
 <!-- .slide: -->
 
 ## Installation - en entreprise
-Windows : déploiement par GPO
 
-##==##
+<strong>Windows</strong> : déploiement par GPO
 
-<!-- .slide: -->
-
-## Installation - en entreprise
-Linux : déploiement par script au lancement
+<strong>Linux</strong> : déploiement par script au lancement
 
 
 ##==##

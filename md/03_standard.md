@@ -28,6 +28,7 @@ Notes:
 - Les WebExt sont standardisées par le w3c
 - On utilise du html, du css et du js standard
     - avec quelques déclarations en plus (manifest.json en particulier)
+    - et quelques API en plus
 - Tout est documenté sur MDN
 
 ##==##
@@ -67,8 +68,8 @@ Notes:
 
 Notes:
 - mise à jour gérée par le navigateur
-- chaque navigateur a sa solution
-- documenté plus ou moins bien
+- une solution unique pour tous les navigateurs
+- bien documenté
 
 ##==##
 
@@ -159,7 +160,7 @@ Notes:
 
 <!-- .slide: class="transition" data-background="./assets/images/engrenage-2.jpeg" -->
 
-# Quelques exemple d'extensions
+# Quelques exemples d'extensions
 
 ##==##
 
@@ -246,7 +247,7 @@ Notes:
 
 ##==##
 
-# Intéragir avec l'OS
+# Interagir avec l'OS
 
 <div class="flex-row">
 
@@ -267,7 +268,7 @@ Notes:
 
 ##==##
 
-# Outils développeur
+# Outils developpeur
 
 <div class="flex-row">
 
