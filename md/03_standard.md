@@ -307,7 +307,7 @@ Notes:
 ##==##
 <!-- .slide: class="flex-row" -->
 
-# Mention special a ...
+# Mention speciale a ...
 
 ![h-600](./assets/images/form-troubleshooter.png)
 ![h-450](./assets/images/form-troubleshooter-how-it-works.png)
