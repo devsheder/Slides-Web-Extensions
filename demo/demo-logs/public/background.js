@@ -16,8 +16,10 @@ nativeApp.onMessage.addListener((response) => {
   console.log("Received: " + response);
 });
 
-browserObject.webRequest.onBeforeRequest.addListener(handleOnBeforeRequest, { urls: ['<all_urls>'] }, ['requestBody']);
-browserObject.webRequest.onCompleted.addListener(handleOnCompleted, { urls: ['<all_urls>'] });
+browserObject.webRequest.onBeforeRequest
+  .addListener(handleOnBeforeRequest, { urls: ['<all_urls>'] }, ['requestBody']);
+browserObject.webRequest.onCompleted
+  .addListener(handleOnCompleted, { urls: ['<all_urls>'] });
 console.log('listen for calls to /logs');
 
 //#endregion

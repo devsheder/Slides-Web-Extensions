@@ -1,0 +1,8 @@
+{
+    "dimmer.enabled": true,
+    "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace",
+    "editor.fontSize": 14,
+    "editor.fontWeight": "normal",
+    "editor.formatOnSave": false,
+    "workbench.colorTheme": "Default Dark+"
+}
