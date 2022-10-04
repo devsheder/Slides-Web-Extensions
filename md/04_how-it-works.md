@@ -213,6 +213,14 @@ Exécution liée à l'ouverture des devtools (F12)
 
 <!-- .slide: -->
 
+## Execution - native messaging
+
+![h-800 center](./assets/images/execution_native_messaging.jpg)
+
+##==##
+
+<!-- .slide: -->
+
 ## Execution - APIs
 
 ![h-800 center](./assets/images/execution_apis.jpg)
