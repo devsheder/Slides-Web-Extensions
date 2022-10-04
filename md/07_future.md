@@ -6,7 +6,7 @@
 
 <!-- .slide: class="transition" data-background="./assets/images/engrenage-1-revert.jpeg" -->
 
-# Une communaute qui grandie
+# Une communauté qui grandie
 
 Notes:
 - déjà plus de 20 000 extensions sur le chrome web store
@@ -17,7 +17,7 @@ Notes:
 
 <!-- .slide: class="transition" data-background="./assets/images/engrenage-1-revert.jpeg" -->
 
-# Passage a venir vers le Manifest V3
+# Passage à venir vers le Manifest V3
 
 Notes:
 - déjà sur Chrome

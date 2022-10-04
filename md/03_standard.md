@@ -4,7 +4,7 @@
 
 ##==##
 
-# C'est quoi une WebExtensions ?
+# C'est quoi une WebExtension ?
 
 <div class="flex-row">
 
@@ -20,7 +20,7 @@ Notes:
 
 ##==##
 
-# C'est quoi une WebExtensions ?
+# C'est quoi une WebExtension ?
 
 ![center h-600](../assets/images/w3c.png)
 
@@ -58,7 +58,7 @@ Notes:
             <td>😬</td>
         </tr>
         <tr>
-            <td>Web Extensions</td>
+            <td>WebExtensions</td>
             <td>✅</td>
             <td>✅</td>
             <td>✅</td>
@@ -114,7 +114,7 @@ Notes:
 
 <!-- .slide: class="transition" data-background="./assets/images/engrenage-1.jpeg" -->
 
-# Panneaux lateraux (Sidebars)
+# Panneaux latéraux (Sidebars)
 
 Notes:
 - ajouter un panneau
@@ -141,7 +141,7 @@ Notes:
 
 <!-- .slide: class="transition" data-background="./assets/images/engrenage-1-revert.jpeg" -->
 
-# Preferences
+# Préférences
 
 Notes:
 - avoir une page dédiée aux préférences de notre webext
@@ -268,7 +268,7 @@ Notes:
 
 ##==##
 
-# Outils developpeur
+# Outils développeur
 
 <div class="flex-row">
 
@@ -307,7 +307,7 @@ Notes:
 ##==##
 <!-- .slide: class="flex-row" -->
 
-# Mention speciale a ...
+# Mention spéciale à...
 
 ![h-600](./assets/images/form-troubleshooter.png)
 ![h-450](./assets/images/form-troubleshooter-how-it-works.png)

@@ -14,7 +14,8 @@
 
 <!-- .slide: class="transition flex-row" data-background="./assets/images/engrenage-2.jpeg" -->
 
-# Merci 🙏 <br/> Pensez au feedback !
+# Merci 🙏 
+## Pensez au feedback !
 
 ![h-200](./assets/images/adrien.jpeg)
 @AdrienLASSELLE

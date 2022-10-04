@@ -6,27 +6,19 @@ body {
 $gold: #fad7a2;
 
 /**
-
 OVERRIDE FONTS
-
-
 */
-
-
 @font-face {
-    font-family: 'Steampuff';
-    src: url('../fonts/steampuff/Steampuff.otf');
-}
-@font-face {
-    font-family: 'Steamy';
-    src: url('../fonts/steamy/Steamy.otf');
+    font-family: 'nasalization';
+    src: url('../fonts/nasalization/nasalization-rg.otf');
 }
 
 .reveal{
 	font-family: 'Helvetica Neue', Helvetica, 'Microsoft YaHei', 'WenQuanYi Micro Hei', Arial, sans-serif;
     color:white;
     h1, h2 {
-        font-family: 'Steampuff', 'Helvetica Neue', Helvetica, 'Microsoft YaHei', 'WenQuanYi Micro Hei', Arial, sans-serif;
+        font-family: 'nasalization', 'Helvetica Neue', Helvetica, 'Microsoft YaHei', 'WenQuanYi Micro Hei', Arial, sans-serif;
+        word-break: keep-all;
     }
 }
 
@@ -35,9 +27,9 @@ OVERRIDE FONTS
     color:white;
 
 }
-.reveal h1, .reveal h2, .reveal h3, .reveal h4,
+.reveal h3, .reveal h4,
 .reveal .slides section.with-code h1, .reveal .slides section.with-code h2{
-    font-family: 'Steamy', 'Helvetica Neue', Helvetica, 'Microsoft YaHei', 'WenQuanYi Micro Hei', Arial, sans-serif;
+    font-family: 'Helvetica Neue', Helvetica, 'Microsoft YaHei', 'WenQuanYi Micro Hei', Arial, sans-serif;
 }
 
 .reveal .slides section:not(.sfeir-specific-slide):not(.stack):not([class*=transition]) h1, 
@@ -162,7 +154,7 @@ LAYOUT
 
 .reveal .slides .sfeir-basic-slide
 {
-    background: url("../assets/images/logo_devoxx_france.png") no-repeat bottom right;
+    background: url("../assets/images/logo_devfest_2022.png") no-repeat bottom right;
     background-size: 20rem;
 }
 

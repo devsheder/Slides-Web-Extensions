@@ -140,7 +140,7 @@ Exécution <b>unique</b> d'une ressource de la web-ext :
 {
     ...
     "background": {
-        "scripts": ["background-script.js"], // Firefox et Chrome M2
+        "scripts": ["background-script.js"], // Firefox et Chrome MV2
         "service_worker": ["background-script.js"] // Chrome MV3 uniquement
     },
 }
@@ -221,7 +221,7 @@ Exécution liée à l'ouverture des devtools (F12)
 
 <!-- .slide: class="transition" -->
 
-# Installation & deploiement
+# Installation & déploiement
 
 ##==##
 

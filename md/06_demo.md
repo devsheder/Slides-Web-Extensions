@@ -15,7 +15,7 @@ Notes:
 
 ##==##
 
-# Option 2 : a la main
+# Option 2 : à la main
 
 ![center](../assets/images/vitejs.png)
 
@@ -39,7 +39,7 @@ Notes:
 ##==##
 
 
-## Un intercepteur de requete
+## Un intercepteur de requêtes
 
 ![h-800 center](./assets/images/demo_app-bg.jpg)
 
@@ -57,7 +57,7 @@ Notes:
 
 ##==##
 
-## Et on ecrit dans un fichier
+## Et on écrit dans un fichier
 
 ![h-800 center](./assets/images/demo_app-bg-devtool-native.jpg)
 

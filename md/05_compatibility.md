@@ -1,12 +1,12 @@
 <!-- .slide: class="transition left" data-background="./assets/images/pexels-miguel-á-padriñán-four.jpeg" style="left: 700px;"-->
 
-# La compatibilite dans tout ça ?
+# La compatibilité dans tout ça ?
 
 ##==##
 
 <!-- .slide: -->
 
-## Compatibilite - manifest
+## Compatibilité - manifest
 
 ![h-750 center](./assets/images/browser_compatibility.png)
 
@@ -14,7 +14,7 @@
 
 <!-- .slide: -->
 
-## Compatibilite - API Js
+## Compatibilité - API Js
 
 <b>Chrome / Safari</b>
 
@@ -36,7 +36,7 @@ Asynchronous : `Promise`
 
 <!-- .slide: class="with-code-bg-dark consolas" -->
 
-## Compatibilite - Polyfill
+## Compatibilité - Polyfill
 
 ![h-200 center](./assets/images/polyfill.png)
 
@@ -74,7 +74,7 @@ Asynchronous : `Promise`
 
 <!-- .slide: class="flex-row" -->
 
-## Compatibilite - Build
+## Compatibilité - Build
 
 Géré par votre CI préférée
 
@@ -86,7 +86,7 @@ Géré par votre CI préférée
 
 <!-- .slide: -->
 
-## Compatibilite - Et sur mobile ?
+## Compatibilité - Et sur mobile ?
 
 
 Firefox : ✅
