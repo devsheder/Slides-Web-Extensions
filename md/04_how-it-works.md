@@ -29,7 +29,7 @@ Point d'entrée principal du browser : `manifest.json`
 
 V2 release Firefox / V3 release Chrome
 
-![h-600 center](./assets/images/manifest_version_compatibility.png)
+![h-700 center](./assets/images/manifest_version_compatibility.png)
 
 ##==##
 
