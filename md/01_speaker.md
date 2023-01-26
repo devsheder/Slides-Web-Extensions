@@ -9,7 +9,7 @@
 
 <h2>Adrien <span>LASSELLE</span></h2>
 
-### Tech lead fullstack
+### Dév fullstack & Engineering Manager
 <!-- .element: class="icon-rule icon-first" -->
 
 ### @AdrienLASSELLE
@@ -27,7 +27,7 @@
 
 <h2>Anthony <span>Pena</span></h2>
 
-### Developpeur Web fullstack
+### Développeur Web fullstack
 <!-- .element: class="icon-rule icon-first" -->
 
 ### @_Anthony_Pena
